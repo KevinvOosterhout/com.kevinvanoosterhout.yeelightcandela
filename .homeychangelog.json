@@ -1,5 +1,5 @@
 {
   "1.0.0": {
-    "en": "First version!"
+    "en": "Initial release: Bluetooth pairing, on/off and brightness controls for the original Candela, with Homey-generated candle flicker and breathing patterns and Flow support."
   }
 }

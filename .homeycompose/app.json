@@ -11,12 +11,14 @@
     "en": "Yeelight Candela"
   },
   "description": {
-    "en": "Adds support for Yeelight Candela over Bluetooth"
+    "en": "Set the mood with warm candlelight"
   },
   "category": [
     "lights"
   ],
   "brandColor": "#835727",
+  "support": "mailto:homey@kevinvanoosterhout.com",
+  "source": "https://github.com/KevinvOosterhout/com.kevinvanoosterhout.yeelightcandela",
   "permissions": ["homey:wireless:ble"],
   "images": {
     "small": "/assets/images/small.png",

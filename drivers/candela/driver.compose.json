@@ -1,6 +1,7 @@
 {
   "name": { "en": "Candela" },
   "class": "light",
+  "platforms": ["local"],
   "connectivity": ["ble"],
   "capabilities": ["onoff", "dim", "candela_pattern"],
   "images": {

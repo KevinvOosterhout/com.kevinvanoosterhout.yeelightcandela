@@ -1,0 +1,7 @@
+Yeelight brand mark and Candela product photographs originate from Yeelight Germany's public product website. Yeelight remains the owner of its trademarks and product imagery.
+
+Brand mark: https://home.yeelight.de/site/templates/img/yeelight_key-visual.svg
+App photograph: https://home.yeelight.de/site/assets/files/1045/candela-stimmungsleuchte_yeelight_slider.jpg
+Product page: https://home.yeelight.de/en/products/ambiance-lighting/candela-lamp/
+
+The app icon uses the foreground paths of the brand mark in a single color on a transparent canvas. The lifestyle photograph is cropped and resized for the Homey App Store image dimensions. The driver icon and product illustration in assets/candela.svg are drawn specifically for this app.

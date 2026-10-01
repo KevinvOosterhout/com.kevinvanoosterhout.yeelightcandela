@@ -1,0 +1,19 @@
+{
+  "name": { "en": "Candela" },
+  "class": "light",
+  "connectivity": ["ble"],
+  "capabilities": ["onoff", "dim", "candela_pattern"],
+  "images": {
+    "small": "/drivers/candela/assets/images/small.png",
+    "large": "/drivers/candela/assets/images/large.png"
+  },
+  "pair": [
+    { "id": "instructions", "navigation": { "next": "list_devices" } },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": { "next": "add_devices" }
+    },
+    { "id": "add_devices", "template": "add_devices" }
+  ]
+}

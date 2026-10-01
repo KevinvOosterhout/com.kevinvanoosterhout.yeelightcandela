@@ -1,0 +1,19 @@
+{
+  "name": "com.kevinvanoosterhout.yeelightcandela",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.9",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.3.12",
+    "@types/node": "^26.6.3",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "eslint": "~8.57.1",
+    "eslint-config-athom": "~4.0.2",
+    "typescript": "npm:@typescript/typescript6@^6.0.2"
+  }
+}

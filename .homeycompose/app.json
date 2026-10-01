@@ -1,0 +1,29 @@
+{
+  "id": "com.kevinvanoosterhout.yeelightcandela",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Yeelight Candela"
+  },
+  "description": {
+    "en": "Adds support for Yeelight Candela over Bluetooth"
+  },
+  "category": [
+    "lights"
+  ],
+  "brandColor": "#835727",
+  "permissions": ["homey:wireless:ble"],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Kevin van Oosterhout"
+  }
+}

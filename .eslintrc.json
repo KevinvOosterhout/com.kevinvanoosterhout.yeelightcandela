@@ -1,0 +1,16 @@
+{
+  "extends": "athom/homey-app",
+  "settings": { "node": { "version": ">=16.0.0" } },
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "rules": {
+        "import/extensions": ["error", "ignorePackages", { "ts": "always" }],
+        "node/no-missing-import": "off",
+        "node/no-unsupported-features/es-syntax": ["error", { "version": ">=16.0.0", "ignores": ["modules"] }],
+        "no-useless-constructor": "off",
+        "no-empty-function": "off"
+      }
+    }
+  ]
+}

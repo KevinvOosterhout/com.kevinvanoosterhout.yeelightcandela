@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "rewriteRelativeImportExtensions": true,
+    "outDir": ".homeybuild/"
+  },
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": ["app.ts", "drivers/**/*.ts", "lib/**/*.ts"]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "enum",
+  "title": { "en": "Pattern" },
+  "desc": { "en": "Homey-generated brightness effects. Requires the Homey app to remain running." },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "icon": "/assets/pattern.svg",
+  "values": [
+    { "id": "steady", "title": { "en": "Steady" } },
+    { "id": "candle", "title": { "en": "Candle flicker (Homey)" } },
+    { "id": "breathe", "title": { "en": "Breathing (Homey)" } }
+  ]
+}
